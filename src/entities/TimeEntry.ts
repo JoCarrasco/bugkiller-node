@@ -13,4 +13,7 @@ export class TimeEntry {
 
   @Property()
   title!: string;
+
+  @Property()
+  description!: string;
 }

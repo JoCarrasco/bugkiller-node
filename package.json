@@ -23,5 +23,12 @@
     "@mikro-orm/postgresql": "^4.5.7",
     "pg": "^8.7.1",
     "ts-node": "^10.2.0"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/exports/mikro-orm.config.ts",
+      "./dist/exports/mikro-orm.config.js"
+    ]
   }
 }
