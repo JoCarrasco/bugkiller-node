@@ -6,4 +6,4 @@ export class TestResolver {
   heloo() {
     return 'HELLO WORLD';
   }
-}
+} 
