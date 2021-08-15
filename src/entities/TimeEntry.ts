@@ -5,15 +5,15 @@ export class TimeEntry {
   @PrimaryKey()
   id!: number;
 
-  @Property()
+  @Property({ type: 'date' })
   startedAt = new Date();
 
-  @Property()
+  @Property({ type: 'date' })
   endedAt = new Date();
 
-  @Property()
+  @Property({ type: 'text' })
   title!: string;
 
-  @Property()
+  @Property({ type: 'text' })
   description!: string;
 }
