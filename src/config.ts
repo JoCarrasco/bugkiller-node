@@ -1,6 +1,6 @@
 
 import { __prod__ } from "./constants";
-import { TimeEntry } from "./entities/TimeEntry";
+import { TimeEntry } from "./entities/time-entry.entity";
 import { Options } from '@mikro-orm/core';
 import path from 'path';
 
