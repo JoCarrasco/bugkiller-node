@@ -3,43 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "npx webpack && node dist/server.js",
-    "dev": "nodemon --watch src dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "errorhandler": "^1.5.1",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "googleapis": "^71.0.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.6.6",
-    "mongoose": "^5.12.4",
-    "nodemailer": "^6.5.0",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
+  "author": "Jo Carrasco",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/errorhandler": "^1.5.0",
-    "@types/express": "^4.17.11",
-    "@types/express-session": "^1.17.3",
-    "@types/jsonwebtoken": "^8.5.1",
-    "@types/node": "^14.14.41",
-    "@types/nodemailer": "^6.4.1",
-    "@types/passport": "^1.0.6",
-    "@types/passport-local": "^1.0.33",
-    "nodemon": "^2.0.7",
-    "ts-loader": "^8.1.0",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
-    "webpack": "^5.33.2",
-    "webpack-cli": "^4.6.0",
-    "webpack-node-externals": "^2.5.2"
+    "@types/node": "^16.6.1",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.5.7",
+    "@mikro-orm/core": "^4.5.7",
+    "@mikro-orm/migrations": "^4.5.7",
+    "@mikro-orm/postgresql": "^4.5.7",
+    "pg": "^8.7.1",
+    "ts-node": "^10.2.0"
   }
 }

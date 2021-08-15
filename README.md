@@ -1,2 +1,2 @@
 # bugkiller-node
-An awesome NodeJS + Express starter for a bugtracker software.
+An awesome backend server for time-tracking software.
